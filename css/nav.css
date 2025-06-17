@@ -1,0 +1,86 @@
+@import url("./main.css");
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+}
+body{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+}
+/* :root{
+    --text-color : black;
+    --text-color1 : red;
+} */
+#nav{
+    /* border: 2px solid; */
+    height: 75px;
+    background-color: #000;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height:inherit;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+}
+#sub-nav span svg{
+    height :2em;   
+    fill: #fff;
+    color:pointer;
+}
+#sub-nav ol{
+    /* border: 2px solid blue; */
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:45%;
+    font-size: 16px;
+    font-weight: 600;
+}
+#sub-nav ol li:hover{
+    color:#1ed760;
+    cursor:pointer;
+}
+#main{
+    /* border: 2px solid; */
+    height: 70vh;
+    background-color: #b49bc8;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#main h1{
+    font-size: 40px;
+}
+#main h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+#main button{
+    padding:15px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #fff;
+    border:none;
+}
+#main button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#main p{
+    font-size: 12px;
+    text-align: center;
+}
+#main p a{
+    color:#000;
+}
